@@ -56,7 +56,7 @@ import {
       <Alert alert={alert}/>
       
           <Routes>
-                <Route path="/about" element = {<About/>}/>                                 
+                <Route path="/about" element = {<About mode={mode}/>}/>                                 
                 <Route path="/" element = { <TextArea showAlert={showAlert} className = "form"  heading="Enter The Text To Analyze Below" mode={mode}/>}/>  
                             
           </Routes>          
